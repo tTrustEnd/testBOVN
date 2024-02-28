@@ -1,0 +1,25 @@
+.Container{
+    display: block;
+    width: 700px;
+}
+.name{
+    padding-bottom: 2;
+}
+.Csearch{
+    display: flex;
+    gap: 5px;
+}
+.listUser{
+    padding-top: 10px;
+    display: block;
+}
+@media screen and (max-width:862px) {
+    .Container{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px) {
+    .Container{
+        width: 350px;
+    }
+}
